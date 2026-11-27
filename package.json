@@ -1,0 +1,14 @@
+{
+  "name": "my-web-course",
+  "version": "1.0.0",
+  "description": "Мої домашні завдання з курсу веб-розробки",
+  "author": "Олександр Турчин",
+  "license": "ISC",
+  "scripts": {
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
+  "devDependencies": {
+    "prettier": "^3.6.2"
+  }
+}
