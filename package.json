@@ -6,9 +6,12 @@
   "license": "ISC",
   "scripts": {
     "format": "prettier --write .",
-    "format:check": "prettier --check ."
+    "format:check": "prettier --check .",
+    "info": "echo Project: my-web-course, Version: 1.0.0",
+    "dev": "live-server"
   },
   "devDependencies": {
+    "live-server": "^1.2.2",
     "prettier": "^3.10.1"
   }
 }
